@@ -3,5 +3,13 @@
     <head></head>
     <body>
         Chat App
+        <form id="message-form">
+            <input placeholder="Message" name="message">
+            <button id="send">Send</button>
+            <button id="send-location">Send Location</button>
+        </form>
+        <button id="increment">+1</button>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/chat.js"></script>
     </body>
 </html>
